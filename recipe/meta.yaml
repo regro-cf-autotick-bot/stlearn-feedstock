@@ -1,5 +1,5 @@
 {% set name = "stlearn" %}
-{% set version = "0.4.10" %}
+{% set version = "0.4.11" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,8 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/stlearn-{{ version }}.tar.gz
-  sha256: 9648965dddd32f0db0e98fdd592ffce680d960bc018ba61cb096c8c59784dbe4
+  sha256: 59adb90a16a24b70ca11ddceb560d5637727f6c72e7bf8bb0e98b4061ae3fab3
+
 
 build:
   entry_points:
